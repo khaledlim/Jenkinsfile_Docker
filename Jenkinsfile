@@ -8,7 +8,6 @@ pipeline {
         stage('Build') {
             steps {
                 echo "JenkinsFile + Docker"
-                cmd_exec('docker -v')
             }
         }
     }
