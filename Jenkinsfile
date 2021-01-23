@@ -8,7 +8,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo "JenkinsFile + Docker"
-                docker -v
+                echo   'docker -v'
             }
         }
     }
